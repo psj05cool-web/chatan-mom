@@ -1,0 +1,1 @@
+import{NextResponse}from"next/server";import{doLogout}from"@/lib/auth";export async function POST(){await doLogout();return NextResponse.json({ok:true})}

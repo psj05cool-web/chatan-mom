@@ -1,0 +1,1 @@
+import "./globals.css";export const metadata={title:"차탄 맘",description:"헬로카봇 전다해 팬클럽"};export default function RootLayout({children}){return <html lang="ko"><body>{children}</body></html>}
